@@ -1,0 +1,1 @@
+export type HttpMethod="GET"|"POST"|"PUT"|"PATCH"|"DELETE";export interface MockRoute{id:string;path:string;method:HttpMethod;status:number;delay:number;body:unknown;headers:Record<string,string>;enabled:boolean;createdAt:string}export interface MockResult{status:number;statusText:string;duration:number;headers:Record<string,string>;body:unknown}
